@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ff-python-source-metrics"
+version = "0.1.0"
+description = "Firefox source tree metrics for Python files"
+authors = ["Mars <mars@mozilla.com>"]
+license = "MPL-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jupyterlab = "^1.1"
+pandas = "^0.25.1"
+matplotlib = "^3.1"
+seaborn = "^0.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
