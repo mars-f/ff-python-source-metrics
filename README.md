@@ -1,8 +1,7 @@
-= Firefox Python Source Metrics =
+A Jupyter notebook to calculate source metrics for the Firefox source tree.
 
-Jupyter notebooks to calculate source metrics for the Firefox source tree.
-
-== Running the notebook ==
+Running the notebook
+--------------------
 
 This project uses [Poetry](https://poetry.eustace.io/).
 
